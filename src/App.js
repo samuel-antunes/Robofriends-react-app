@@ -1,7 +1,9 @@
+
 import React, { Component } from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 import { robots } from './robots';
+
 
 class App extends Component {
     constructor(props){
@@ -31,6 +33,6 @@ class App extends Component {
         );
         
     };
-};
+
 
 export default App;
